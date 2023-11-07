@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: rgb(232, 243, 228);
+}
+
+
+h1 {
+    background-color: green;
+    padding-left: 0.2em;
+    padding-top: 0.1em;
+    text-align: left;
+    font-size: 3.3em;
+    font-family: Arima koshi;
+    line-height: 1em;
+    width: 100%;
+}
+
+
+div {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.Logo, .LogoM, .LogoT {
+    width: 35%;
+}
+
+
+.Titel {
+    font-size: 3.7em;
+    padding: 0.2em;
+    padding-top: 0.4em;
+    text-align: center;
+}
+
+
+h2 {
+    font-family: Helvetica;
+    font-style: oblique;
+    font-size: 1.3em;
+    text-align: center;
+    padding: 0.3em;
+    background-color: rgb(93, 200, 93)
+}
+
+
+main p {
+    font-size: 0.76em;
+    padding: 1.1em;
+    font-family: Helvetica;
+    font-style: normal;
+}
+
+
+section {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.Intro {
+    width: 48%;
+    padding: 0.6em;
+    border-radius: 2em;
+}
+
+
+.main, .waarom {
+    width: 50%;
+    padding: 0.8em;
+    margin-bottom: 4em;
+    border-radius: 2em;
+}
+
+
+footer {
+    background-color: green;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    padding: 1em;
+}
+
+
+ul {
+    list-style-type: none;
+    display: flex;  
+    justify-content: space-around;
+}
+
+
+li {
+    font-size: x-large;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
